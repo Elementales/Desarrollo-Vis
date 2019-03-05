@@ -1,0 +1,191 @@
+<!-- This project was made by ladata.mx, if you want to see it in action, visit http://morlan.pw/pruebas/daniel/FlujodeFelicidad/  -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Good government means happy people?</title>
+		<meta name="robots" content="index">
+		<link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Lato" rel="stylesheet"> 
+  		<script src="./js/d3/d3.js"></script>
+  		<script src="./js/p5/p5.js"></script>
+  		<script src="./js/p5.scribble.js-master/p5.scribble.js"></script>
+ 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" media="screen" />
+		<link rel="stylesheet" href="./css/estilo.css" media="screen"/>
+	</head>
+	
+	<body>
+		<div class ="creditos">
+			<a href="http://www.ladata.mx/quienes.html" target="_blank">
+				<img src="imgs/logo wdvp.svg">
+				
+			</a>
+			
+		</div>
+			<div class ="imginsaight row">
+				<div class="col-xs-5">
+					<img class="imginsaights rotador" src="imgs/menuinsights.svg">
+				</div>
+				<div class="col-xs-19">
+					<p class="imginsaights ">Discover some patterns and insights here</p>
+				</div>
+			</div>
+			<div class ="imgcred">
+				<img class="imgcreds" src="imgs/menuinsights.svg">
+				<p class="imgcredits">Credits</p>
+			</div>
+		<div class ="inicio row">
+			
+			<div class ="row">
+			
+				<div class="col-xs-6"></div>
+				<div class="col-xs-12" ><h1 class="goodgov">Good government means happy people?</h1></div>
+				<div class="col-xs-6"></div>
+			</div>
+			<div class ="row">
+				<div class="col-xs-7"></div>
+				<div class="col-xs-10 descrip" >
+					<p>All governments have an obligation to establish conditions that allow the happiness of its inhabitants. But, to what extent is this happening in the world?</p>
+
+					<p>To find out, we analyze data from 100 countries and the way in which these 3 main indicators are correlated:</p>
+
+					<p class="li">•Government Effectiveness Index (World Bank)</p>
+					<p class="li">•Social Liberties Score (Freedom House)</p>
+					<p class="li">•World Happiness Report Score (Happiness Report)</p>
+					<div class ="row">
+						<div class ="col-xs-4 col-sm-8"></div>
+						<div class ="col-xs-16 col-sm-8">
+						<img  class= "botondataviz" src="imgs/botonviscontexto.svg"></p></div>
+						<div class ="col-xs-4 col-sm-8"></div>
+					</div>
+
+				</div>
+				<div class="col-xs-7"></div>
+			</div>
+
+		</div>
+		<div class="container-fluid">
+			<div class="row " id="nomenclatura">
+
+			</div>
+			<div class ="boton">
+				      <button id="moveDown" class="btn btn-success">go to visualization!</button>
+			</div>	
+			<div class="row lafelicidad">
+				<div class="row"> <h2 class="titvisgen"> Good government means happy people?</h2> </div>
+				<div class="row">
+				<div class="col-xs-7">
+					<div class="row paises">
+						<div class ="col-xs-10"></div>
+						<div class ="col-xs-10">
+							<div class="dropdown">
+								<button id="countries" value="Select a country" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a country
+		    					</button>
+		    					<ul class="dropdown-menu countries">
+		    						<li class="countr">Select a country</li>
+		    						
+		    					</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class ="col-xs-10"></div>
+						<div class ="col-xs-10 panelizq1">
+							<ul>
+								<li class="paiseleccionado">
+									
+								</li>
+							</ul>							
+						</div>
+					</div>
+					<div class="row">
+						<div class ="col-xs-10"></div>
+						<div class ="col-xs-10">
+							<div class="dropdown">
+								<button id="regions" value="Select a region" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select a region
+		    					</button>
+		    					<ul class="dropdown-menu regions">
+		    						<li class="reg">Select a region</li>
+		    						<li class="reg">Central and Eastern Europe</li>
+		    						<li class="reg">Commonwealth of Independent States</li>
+		    						<li class="reg">East Asia</li>
+		    						<li class="reg">Latin America and Caribbean</li>
+		    						<li class="reg">Middle East and North Africa</li>
+		    						<li class="reg">North America and ANZ</li>
+		    						<li class="reg">South Asia</li>
+		    						<li class="reg">Southeast Asia</li>
+		    						<li class="reg">Sub-Saharan Africa</li>
+		    						<li class="reg">Western Europe</li>
+		    						
+		    					</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row listadoreg">
+						<div class ="col-xs-10"></div>
+						<div class ="col-xs-10 panelizq"></div>
+					</div>
+
+				</div>
+				<div class="col-xs-10" id="felicidadvis"></div>
+				<div class="col-xs-7">
+					<div class="row ">
+						<div class ="col-xs-4"></div>
+						<div class ="col-xs-12 noming">
+							<img class="nompng" src="./imgs/nomenclatura.png">
+						</div>
+						<div class ="col-xs-4"></div>
+
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="row insightsall">
+				<h2>Good government means happy peopple?</h2>
+				<h4>Insights and patterns</h4>
+
+				<div class="row">
+					<div class="col-xs-3"></div>
+					<div class="col-xs-5">
+						<p class="insght">According to the data,<span class="RepublicofSoutSudan"> the Republic of South Sudan</span> is the least happy country in the world. Its independence in 2011 inherited the spiral of violence of the region and led to a civil war that immersed the young nation in a humanitarian and economic crisis. Nowadays, the conflict continues and his government is unable to guarantee civil liberties to its inhabitants. In contrast, <span class="Finland"> Finland </span> is not only the most prosperous economy in the world but the country with the highest happiness score. Its citizens enjoy welfare and a rule of law that fully guarantees their civil liberties.</p>
+					</div>
+					<div class="col-xs-2"></div>
+					<div class="col-xs-5">
+						<p class="insght">The average happiness score for Latin America and Caribbean region is in the fourth place (out of ten); however, a large number of countries in that region such as <span class="Haiti">Haiti</span>, <span class="Honduras">Honduras</span>, <span class="Guatemala">Guatemala</span> and <span class="Nicaragua">Nicaragua</span> have the lowest values ​​in the indicator of government effectiveness and civil liberties. The question that arises is how a region can have a state of happiness greater than the average when a good part of these countries present deficient governments?</p>
+						<p class="insght">According to the World Happiness Report 2018, this is due to the "extraordinary warmth and strength of family": they are more satisfied with their families and social life than anywhere else; beyond economic income, corruption and other standard variables.</p>
+					</div>
+					<div class="col-xs-2"></div>
+					<div class="col-xs-5">
+						<p class="insght">From all regions around the world, the Sub-Saharan African has the countries with the lowest state of happiness among its inhabitants: out of the 25 countries that constitute it, less than a fifth part have scores above the world average. This could be explained by the low scores in civil liberties and government effectiveness. It is surprising to know that just one country in the Sub-Saharan region garanties this characteristic: <span class="SoutAfrica"> South Africa</span>. But, why do we find the worst index in this region? the immediate answer is: arm conflict, poverty, hunger, dispossession and abuse.</p>
+					</div>
+					<div class="col-xs-3"></div>
+
+					
+				</div>
+				<div class="row">
+					<div class="col-xs-3"></div>
+					<div class="col-xs-5">
+						<div id="insight1" class="row"></div>
+					</div>
+					<div class="col-xs-2"></div>
+					<div class="col-xs-5">						
+						<div id="insight2"></div>
+					</div>
+					<div class="col-xs-2"></div>
+					<div class="col-xs-5">
+						<div id="insight3"></div>
+					</div>
+					<div class="col-xs-3"></div>
+
+					
+				</div>
+			</div>
+		</div>
+		<script src="./js/jQuery/jquery-2.1.3.min.js"></script>
+   		<script src="./bootstrap/js/bootstrap.min.js"></script>
+ 		<script src="./js/scriptnomenclatura.js"></script>
+		<script src="./js/scriptplanetas.js"></script>
+		<script src="./js/scriptinsights.js"></script>
+	</body>
+</html>

@@ -1,0 +1,245 @@
+
+<!-- This project was made by ladata.mx, if you want to see it in action, visit http://www.ladata.mx/VisualizacionAves/ -->
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+  <meta charset="UTF-8"/>
+   
+  <meta name="keywords" content="nuevo aeropuerto, naim, naicim, 250 aves, 250 especies, visualizacion aves, visualizacion aeropuerto, cantos de aves">	 
+  <link rel="stylesheet" type="text/css" href="./js/fullPage/src/fullpage.css" />
+    <script src="./js/fullPage/vendors/easings.min.js"></script>
+    <script type="text/javascript" src="./js/fullPage/vendors/scrolloverflow.js"></script>
+    <script type="text/javascript" src="./js/fullPage/src/fullpage.js"></script>
+
+  		<script src="./js/d3/d3.js"></script>
+     <script src="./js/underscore.js"></script>
+
+  		<script src="./js/p5/p5.js"></script>
+  		<script language="javascript" type="text/javascript" src="./js/p5/addons/p5.sound.js"></script>
+  		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+		<title>Los 250 cantos del Lago de Texcoco</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" media="screen" />
+		<link rel="stylesheet" href="./css/estilo.css" media="screen"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700,900" rel="stylesheet">
+     <meta property="og:title" content=" Los 250 cantos del Lago de Texcoco" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.ladata.mx/VisualizacionAves/" />
+    <meta property="og:description" content="250 especies de aves viven en el Lago de Texcoco de acuerdo a CONABIO, sin embargo, la Manifestación de Impacto Ambiental del NAIM registró solo 74. Entra y descubre las especies que están en riesgo." />
+    <meta property="og:image" content="http://www.ladata.mx/VisualizacionAves/azteca.png" />
+    
+
+	</head>
+	<body>
+<div class="fichamovil row">
+              <div class="col-xs-1"></div>
+              <div class="col-xs-22 fichamov">
+                <div class="col-xs-24 bloquesvg-text">
+                  <div class="row">
+                    <div class="col-xs-22"></div>
+                    <div class="col-xs-2">
+                    <img id="colbotoncerr" src="./Imgs/X.svg">
+                    </div>
+                  </div>
+                <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-21 NombreEsp"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-21 NombreCien"></div>
+
+                  </div>
+
+                <svg class="foto-ficha"> 
+                  <rect class="barravul"/>
+                  <circle class="circulonom"/>
+                  <image class="fotoendemismo"/>
+                  <image class="fotopajaro"/>
+                  <polygon class="poblacional"/>
+                  <text class="vultext"></text>
+                  <text class="tenp1"></text>
+                  <text class="tenp2"></text>
+                  <text class="tamp"></text>
+
+
+                  </svg>
+                  </div>
+                <img src="./Imgs/nommovil.png" class="imgnommov">
+
+              </div>
+              <div class="col-xs-1"></div>
+              
+            </div>
+
+   		<div class="container-fluid" id="fullpage">
+      <button id="moveDown" class="btn btn-success">Ir a visualización</button>
+        <div class="row arti section sec1">
+
+          <div class="row">
+            <div class="col-xs-2 col-sm-7"></div>
+            <div class="col-xs-20 col-sm-10 titulot">
+              <h1> Los 250 cantos </h1>
+              <h2>del Lago de Texcoco</h2>
+              
+            </div>
+            <div class="col-xs-2 col-sm-7"></div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2 col-sm-7"></div>
+            <div class="col-xs-20 col-sm-10 neza">
+
+              <p>Amo el canto del zentzontle,</p>
+              <p>pájaro de cuatrocientas voces.</p>
+              <p>Amo el color del jade</p>
+              <p>y el enervante perfume de las flores,</p>
+              <p>pero más amo a mi hermano: el hombre.</p>
+              <p>Nezahualcoyotl</p>
+              <p class="fecha">25 de octubre de 2018</p>
+            </div>
+            <div class="col-xs-2 col-sm-7"></div>
+            </div>
+          <div class="row">
+            <div class="col-xs-2 col-sm-7"></div>
+            <div class="col-xs-20 col-sm-10 textowil">
+              <p>Aun cuando se pueden estimar los costos y los beneficios que traerá la construcción del Nuevo Aeropuerto Internacional de México (NAIM), ¿cómo asignar un precio a la extinción o disminución de la población de alguna especie?
+              </p>
+              <p>En este trabajo mostramos a las aves que podrían estar en riesgo de desaparecer si es que el nuevo aeropuerto se construye en la zona del Lago de Texcoco, cuántas tienen protección especial, cuántas son endémicas de la República Mexicana, cuáles son sus tamaños de población, cómo lucen y cómo se escuchan.
+              </p>
+              <p>El lugar donde se desea construir el NAIM consta de aproximadamente 5 mil hectáreas de terreno y es uno de los últimos resquicios de lo que antes fue un gran lago y hoy día es parte de un sistema lacustre y de humedales que funge como refugio de diversas especies de aves, reptiles y mamíferos de la Zona Metropolitana de la Ciudad de México (ZMCM).</p>
+              <p>Según el Grupo Aeroportuario de la Ciudad de México (GACM) –encargados del proyecto– el NAIM podría ser uno de los aeropuertos más sustentables del mundo, sin embargo, no se tiene aún la certeza de lo que sucederá con las especies de aves que habitan en el lugar.</p>
+              <p>Aunque han presentado un plan de conservación que implica la ampliación de algunos cuerpos de agua, la redistribución de las aves de Texcoco hacia los municipios de Zumpango y Guadalupe, el mejoramiento de la calidad de agua y la regulación de las actividades humanas; no es posible conocer con antelación si serán reproducibles las condiciones del último santuario de aves de la ZMCM, y de acuerdo a especialistas, existe una alta posibilidad de que ante la insuficiencia de hogares y fuentes de alimento, no todas las especies de aves logren sobrevivir.</p>
+              <p>De acuerdo con La Red Hemisférica de Reserva de Aves Playeras, a la zona del Lago de Texcoco llegan cada año en promedio 150,000 aves migratorias de 182 especies, de las cuales 30 corresponden al grupo de aves llamadas playeras, que viven y se alimentan a las orillas de los lagos y humedales donde se desea construir el nuevo aeropuerto.</p>
+              <p>Por otro lado la Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) –organismo encargado de monitorear y salvaguardar las especies de México–, reporta que en la zona del Lago de Texcoco existen 250 especies de aves: 3 amenazadas (en peligro de desaparecer a corto o mediano plazo) y 11 bajo protección especial (amenazadas por factores que inciden negativamente en su viabilidad, con necesidad de propiciar su recuperación y conservación), esto según la NOM-059-SEMARNAT-2010.</p>
+              <p>Pese a la restricción de la norma ambiental, el proyecto del nuevo aeropuerto tuvo luz verde para su reactivación en 2014. Para presentar su viabilidad, el GACM adjudicó un contrato de 17 millones pesos a la empresa “Especialistas Ambientales, S.A. de C.V” para la elaboración de la Manifestación de Impacto Ambiental (MIA) del proyecto, documento donde se analiza a detalle las implicaciones y afectaciones de su desarrollo. Este documento contempló solo 5 conteos de aves y presenta una enorme disparidad respecto a las aves registradas en CONABIO:</p>
+
+              <p>
+                <ol class="listado">
+                  <li>Los registros representan tan solo el 29% de la cifra contabilizada por la CONABIO, (72 de las 250), es decir, no considera a 178 especies de aves, debido a que no se observaron. Además, dentro de su reporte, sólo a 4 especies se les consideró como “sujeta a protección especial” por la NOM-59, 7 menos que las 11 contabilizadas por CONABIO.</li>
+                  <li>La MIA registra 3 especies que no fueron reportadas por la CONABIO: flamenco rosado, garza azulada y agachona común.</li>
+                  <li><p>No se menciona el grado de vulnerabilidad de las aves, la cual es de suma importancia, pues nos habla de la salud de una especie y se considera a partir de la suma de distintas variables como el riesgo a la disminución de la población, la amenaza en época de reproducción, la distribución en época no reproductiva, entre otras.</p>
+                  <p>Según los reportes de CONABIO, 104 especies de aves de las 250 se encuentran entre el valor 11 y 15 del índice de vulnerabilidad (ver visualización), lo cual nos habla de especies que enfrentan “amenazas moderadas a altas” y 2 con valor de vulnerabilidad 16, lo que nos refiere a “amenazas muy altas”.</p>
+                  </li>
+                  <li>El estudio sólo menciona “residencia” de las aves y no considera las clasificaciones de endemismo, es decir, que sólo habitan en México una época del año; CONABIO señala que son 18 especies Semiendémicas, 3 Cuasiendémicas (con una distribución compartida en países vecinos) y 2 Endémicas (totalmente exclusivas de la república).</li>
+                </ol>
+              </p>
+              <p>Lo anterior resulta alarmante considerando que en México se reporta la presencia de 1,107 especies de aves correspondientes al 10.6% de las existentes a nivel mundial, lo que lo sitúa en el lugar número 11 de concurrencia de estos seres vivos. Asimismo, es el hogar de 102 especies endémicas, es decir, 1 de cada 10 estas especies de aves viven únicamente en el territorio nacional (Aves de México, 2015).</p>
+              <p>Por otra parte, en el 2012, la  SEMARNAT comenzó un proyecto de mitigación y rescate ecológico en el Lago de Texcoco, donde se consideraba que este ecosistema permitiría mejorar las condiciones ambientales de la región oriente de la ZMCM, reducir las afectaciones a la salud, además de ayudar a aumentar la proporción de áreas verdes por habitante y contribuir a la consolidación de reservas naturales, favoreciendo la calidad de vida de la población de esta parte de la ciudad. (Programa Parque Ecológico del Lago de Texcoco, CONAGUA 2012).El que haya aceptado la construcción del NAIM contradice dicho objetivo.</p>
+              <p>Esperamos que con esta visualización se logre apreciar la importancia y belleza de las 250 aves del Lago de Texcoco y sirva para reflexionar acerca del mundo que compartimos con otros seres vivos, donde el ritmo de extinción de especies sigue aumentando a pasos acelerados, debido a la sobreexplotación, la destrucción y modificación de sus hábitats.</p>
+              <p>Las aves son un reflejo de un ecosistema saludable, es decir, nos anuncia vida y biodiversidad. Pensar en ellas es pensar en un horizonte de posibilidades reales entre la sociedad y la naturaleza, que van más allá de una construcción como lo que podría ser el NAIM.</p>
+              
+
+            </div>
+            <div class="col-xs-2 col-sm-7"></div>
+          </div>
+        </div>
+   			<div class="row section sec2">
+   				
+   				<div class="col-xs-0 col-sm-10 infoficha">
+   					<div class="col-xs-0 col-sm-3"></div>
+   					<div class="col-xs-0 col-sm-21">
+   						<div class=" col-xs-0 col-sm-24 row">
+                <p class="titexp">¿Cómo leer los datos?</p>
+                <p class="instruccion">Selecciona un círculo para ver y escuchar la especie</p>
+
+              </div>
+              <div class=" col-xs-0 col-sm-24 imgsnomen">
+                
+                <img src="./Imgs/nomen.png" class="nomen">
+                <img src="./Imgs/cuadro.png" class="nomenef">
+                  <p class="vulnerabilidad"> <span class="vulneg">Vulnerabilidad de especie,</span> donde 4=más bajo y 20=más alto <span class="informacionvul">(i)</span> </p>
+                  <p class="nom59"> Categoría de riesgo según la Norma Oficial Mexicana 59</p>
+                
+                  <p class="textoint1">
+                  <strong class="textobold">250 especies</strong> de aves son las que habitan en la zona <strong class="textobold">donde se pretende construir el Nuevo Aeropuerto Internacional de México, </strong> según la CONABIO.
+                  </p>
+                  <p class="textoint2">
+                  La Manifestación de impacto Ambiental del <strong class="textobold"> NAIM reporta sólo 69 especies.</strong>
+                  </p>
+           
+                <div class="fichas">
+                  <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-21 NombreEsp"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-3"></div>
+                    <div class="col-xs-21 NombreCien"></div>
+
+                  </div>
+                  <div class="row foto-ficha">
+                  <svg class="foto-ficha"> 
+                  <rect class="barravul"/>
+                  <circle class="circulonom"/>
+                  <image class="fotoendemismo"/>
+                  <image class="fotopajaro"/>
+                  <polygon class="poblacional"/>
+                  <text class="vultext"></text>
+                  <text class="tenp1"></text>
+                  <text class="tenp2"></text>
+                  <text class="tamp"></text>
+
+
+                  </svg>
+
+                  </div>
+
+
+                </div>
+              </div>
+   					</div>
+   				
+   				</div>
+   				<div class="col-xs-24 col-sm-14 visualizacion" id="visaves">
+            
+   					<div class="row losbotones">
+            <button class="btn btn-success " id="Vista-general">
+             Vista general  
+            </button>
+            <button class="btn btn-success " id="MIA">
+               Reportados en M.I.A.
+            </button>
+            <button class="btn btn-success" id="Vulnerabilidad">
+               Vulnerabilidad
+            </button>
+            <button class="btn btn-success" id="NOM59">
+               Riesgo
+            </button>
+            <button class="btn btn-success" id="TendPob">
+               Tendencia poblacional 
+            </button>
+            <button class="btn btn-success" id="Endemismo">
+               Endemismo 
+            </button>
+            </div>
+            
+   				</div>
+   			
+        <div class="row ">
+            <div class="col-xs-0 col-sm-0"></div>
+            <div class="col-xs-24 col-sm-24 creditos">
+              <p class="cred">Créditos</p>
+              <div class="cred">
+              <p><strong>Texto: Wilant Gomari</strong></p>
+              <p><strong>Diseño de información: Rocío Arias Puga</strong></p>
+              <p><strong>Desarrollo: Daniel Gómez Hernández</strong></p>
+              <p><strong>Edición: Oliver Morales</strong></p></div>
+            </div>
+            <div class="col-xs-2 col-sm-7"></div>
+          </div>
+   		</div>
+      </div>
+
+  
+
+      <script src="./js/jQuery/jquery-2.1.3.js"></script>
+   		<script src="./bootstrap/js/bootstrap.js"></script>
+		
+		<script src="./js/scripta.js"></script>
+
+	</body>
+</html>

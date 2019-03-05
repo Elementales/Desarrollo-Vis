@@ -1,0 +1,80 @@
+body{background-color: rgb(1,12,21);}
+h4.titulovis{
+	font-size: calc(12px + 2vw);
+	font-family: "Abril Fatface";
+	color:rgb(204, 218, 214);
+	margin-bottom: 0px;
+}
+h1.tit1{
+	font-size: calc(18px + 3.5vw);
+	font-family: "Abril Fatface";
+	color:rgb(204, 218, 214);
+	margin: 10vh 0px 10vh 0px ;}
+
+p{padding:calc(10px + 1.5vw) 0px calc(10px + 1.5vw) 0px;}
+p.nombres{color:rgb(204, 218, 214);
+font-size: calc(8px + .5vw);
+font-family: "Open Sans";
+padding:0px;}
+
+
+
+
+div#visualizacionchoque{margin-top: calc(2vw + 20px)}
+
+
+div.popss{display:none;
+	overflow-y: scroll;
+z-index: 101;
+position:fixed;
+top:0px;
+left:0px;
+width:100vw;
+height:102vh;
+font-size: calc(8px + .5vw);
+text-align: justify;
+   text-justify: inter-word;
+font-family: "Open Sans"}
+
+img.btn-cerrado{padding-top: 10vh;
+cursor:pointer}
+
+div.Derecho_a_la_vida {background:#80cfff;}
+div.Derecho_a_decidir_el_número_de_hijos_e_intervalo_entre_los_nacimientos {background:#67e89c;}
+div.Derecho_a_la_libertad_religiosa_y_de_conciencia {background:#bfe7ff;}
+div.Derecho_a_la_privacidad {background:#7aa28b;}
+div.Derecho_a_gozar_de_los_beneficios_del_progreso_científico {background:#8cbbb8;}
+div.Derecho_a_la_libertad {background:#6dd99a;}
+div.Derecho_a_la_salud_y_a_la_atención_médica {background:#5cb9f4;}
+div.Derecho_a_la_no_discriminación_y_a_la_igualdad {background:#5dbbb3;}
+div.Derecho_a_la_información {background:#00bbad;}
+div.Derecho_a_no_ser_sometida_al_trato_cruel_inhumano_y_degradante{background:#a3d9b9;}
+div.Derecho_a_la_seguridad_personal {background:#8fadbf;}
+h5.titficha{text-align: center;
+font-size: calc(12px + 2vw);
+	font-family: "Abril Fatface";
+margin-bottom: 5vh}
+
+div.texto1{
+	font-size: calc(12px + .5vw);
+text-align: justify;
+   text-justify: inter-word;
+font-family: "Open Sans";
+color:rgb(204, 218, 214);
+margin-bottom: 10vh;
+}
+div.porque{
+	font-size: calc(10px + .3vw);
+text-align: justify;
+   text-justify: inter-word;
+font-family: "Open Sans";
+	color:rgb(204, 218, 214);
+
+margin-bottom: 10vh;
+}
+
+h4.porq{font-size: calc(10px + 1.4vw);
+	font-family: "Abril Fatface";
+	color:rgb(204, 218, 214);
+	margin-bottom: 3vw;
+	margin-top: calc(20px + 5vw);}

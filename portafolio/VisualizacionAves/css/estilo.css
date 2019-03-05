@@ -1,0 +1,248 @@
+div.infoficha , div.margeninfoficha{
+	background: #f8f8f8;
+	height: 103vh;
+	padding-right: 20px;
+}
+
+.label {
+        fill: gray;
+        font-size: 16px;
+      }
+div.losbotones{
+  text-align: center;}
+button.btn{background: #b1d190;
+  border:0px;
+  margin:.5vw;
+  border-radius: 0px;}
+button.btn:hover,button.btn:focus,button.btn:focus:hover{background: #98c26b}
+
+div.imgsnomen{position:relative;}
+img.nomen{width:100%;position: absolute;}
+img.nomenef{width:60%;position: absolute;
+	top:3.1vw;}
+
+p.titexp{font-size: calc(10px + 1vw );
+	font-family: "Lato";
+	font-weight: 700;
+margin-bottom: .7vh;}
+
+p.instruccion{font-size: calc(8px + .8vw );
+	font-family: "Lato";
+	font-weight: 400;
+margin-bottom: .7vh;}
+
+div.fichas{
+	 
+
+	width:55%;
+	position: relative;
+	height: calc(21vw + 0px);
+	top:5.1vw;
+}
+
+div.NombreCien{font-size: calc(0px + .9vw);
+		font-family: "Lato";
+		font-weight: 300;
+	    font-style: italic;
+
+}
+div.NombreEsp{font-size: calc(0px + 1.1vw);
+	font-family: "Lato";
+	font-weight: 900;
+	margin-top: 4%;
+}
+svg.foto-ficha{margin: 0px;
+padding: 0px;}
+text.vultext{
+		font-family: "Lato";
+	font-weight: 700;
+}
+
+polygon.poblacional{fill:#f4ee5a}
+text.tenp1,text.tenp2{
+	dominant-baseline: hanging;
+	fill:#7a782d;
+	text-anchor: middle;
+	font-family: "Lato"}
+text.tamp{
+	dominant-baseline: hanging;
+	fill:#7a782d;
+	font-family: "Lato"}
+div.visaves, div.losbotones, div.row{padding:0px}
+div.fichamovil{
+	z-index: 9000;
+	overflow-y: scroll;
+	width: 100vw;
+	height:100vh;
+	position:fixed;
+	display: none;
+	background: #f8f8f8;
+	left: 0px;
+    top: 0px;
+   
+
+}
+img.imgnommov{width:100%; margin-top: 3vw;}
+div.bloquesvg-text{margin-top:20px;}
+img#colbotoncerr{margin-right: 5px}
+rect.barravul, text.vultext{fill:#ff8c6a;}
+
+p.textoint1{position: absolute;
+	left: 110%;
+	width: 87%;
+	top:1vw;
+	font-size:1.8vw;
+	font-family: "Lato";font-weight: 300; }
+p.textoint2{position: absolute;
+	left: 110%;
+	width: 67%;
+	top:16vw;
+	font-size:1.8vw;
+	font-family: "Lato";font-weight: 300; }
+strong.textobold{font-weight: 400;}
+p.vulnerabilidad{position: absolute;
+	left:62%;
+	width: 37%;
+	top:6.9vw;
+	font-size:.84vw;
+	font-family: "Lato" 
+}
+span.vulneg{font-weight: 700;}
+span.informacionvul{color:#d9c241;}
+p.nom59{position: absolute;
+	left:62%;
+	width: 37%;
+	top:11vw;
+	font-size:.84vw;
+	font-family: "Lato" ;
+	font-weight:700;
+}
+.popover{background:#f4f197;
+	color:#7a782d;
+	font-family: "Lato";
+border-radius: 0px;
+border:0px;
+
+
+}
+.popover.top > .arrow::after {
+    content: " ";
+    bottom: 1px;
+    margin-left: -10px;
+    border-bottom-width: 0;
+    border-top-color: #f4f197;
+ }   
+
+text.label{font-size: calc(8px + 1.2vw);
+	font-family: "Lato";
+	font-weight: 300;}
+
+text.nomencircs{
+	font-family: "Lato";
+	text-anchor: middle;
+	font-size:  .65vw;
+	dominant-baseline: hanging;
+
+}
+
+text.poc{
+	font-family: "Lato";
+	font-weight: 700;
+	text-anchor: end;
+	font-size:  1vw;
+	dominant-baseline: middle;
+
+}
+text.nomencircsm{
+	font-family: "Lato";
+	text-anchor: middle;
+	font-size:  3vw;
+	dominant-baseline: hanging;
+
+}
+
+text.pocm{
+	font-family: "Lato";
+	font-weight: 700;
+	text-anchor: end;
+	font-size:  3vw;
+	dominant-baseline: hanging;
+
+}
+text.pocm2{
+	font-family: "Lato";
+	font-weight: 400;
+	text-anchor: middle;
+	font-size:  3.5vw;
+	dominant-baseline: hanging;
+
+}
+p.cred{font-family: "Lato";
+	font-weight: 700;
+	font-size: calc(12px + .4vw);
+	}
+div.cred > p > strong{font-weight: 400;
+font-family: "Lato";
+font-size: calc(12px + .4vw);}
+div.textowil > p{font-weight: 400;
+font-family: "Lato";
+font-size: calc(12px + .4vw);
+margin:3vw 0px 0px 0px;
+}
+ol.listado>li{font-weight: 400;
+font-family: "Lato";
+font-size: calc(12px + .4vw);
+margin:3vw 0px 0px 0px;
+}
+div.textowil{margin-bottom: 10vw}
+h1{font-family: "Lato";
+font-weight: 700;
+font-size:  calc(28px + 1vw);
+margin-top: 10vw;
+margin-bottom: 1vw}
+
+h2{margin-top: 1vw;
+	font-family: "Lato";
+font-weight: 300;
+font-size:  calc(28px + 1vw);}
+div.creditos{
+	
+
+	padding: 15px;
+	text-align: center;
+	background: #d4dcca;
+	color:#769201;
+}
+div.losbotones{margin-bottom: 15px;}
+#moveDown{
+font-family: "Lato";
+  bottom: 20px;
+  right : 20px;
+  position:fixed;
+  z-index:999;
+  
+  color:white;
+}
+button#moveDown{background: #b1d190;
+  border:0px;
+  margin:.5vw;
+  border-radius: 25px;}
+button#moveDown:hover,button#moveDown:focus,button#moveDown:focus:hover{background: #98c26b}
+div.textowil{padding-bottom: 40px}
+
+
+p.titexp{margin-top: 10px}
+div.neza{text-align: right;
+font-weight: 300;
+font-style: italic;
+}
+div.neza > p{
+	margin: calc(3px + .1vw);
+	font-size: calc(10px + .4vw);
+}
+
+p.fecha{font-weight: 600;
+font-style: normal;
+text-align: left;
+padding: calc(12px + .2vw) calc(6px + .1vw) calc(6px + .1vw) calc(6px + .1vw);}
+

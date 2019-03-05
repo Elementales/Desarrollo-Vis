@@ -1,0 +1,142 @@
+<!-- This project was made by Rocio Arias Puga and Daniel Gómez Hernández, if you want to see it in action, visit http://unidadid.mx/HackathonVialidad/index.html -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Accidentes viales: Reportes de AXA</title>
+		<meta name="author" content="Rocío Arias Puga, Daniel Gómez Hernández"/>
+		<meta name="owner" content="Daniel Gómez Hernández"/>
+		<meta name="description" content=""/>
+		<meta name="robots" content="index">
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3.geo.projection.v2.min.js"></script>
+  		<script src="./js/p5/p5.js"></script>
+  		<meta name="keywords" content="" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700" rel="stylesheet">
+		<link rel="stylesheet" href="./bootstrap/css/bootstrap.css" media="screen" />
+		<link rel="stylesheet" href="./css/estilo.css" media="screen"/>
+
+		<meta property="og:title" content="Tres años de accidentes viales en la CDMX" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://unidadid.mx/HackathonVialidad/" />
+		<meta property="og:image" content="http://unidadid.mx/HackathonVialidad/prev.png" />
+		<meta property="og:description" content="Analizamos y visualizamos accidentes viales en el tiempo y geográficamente" />
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129671299-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-129671299-1');
+	</script>
+
+
+
+	</head>
+	<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-2"></div>
+			<div class="col-xs-26">
+				<h1>TRES AÑOS DE INCIDENTES VIALES EN LA CDMX</h1></div>
+		</div>
+		<div class="row vis1">
+			
+			<div class="col-md-12">
+				<div class="row">
+
+					<div class ="col-xs-3"></div>
+					<div class ="col-xs-24">
+						<h2> Cantidad de siniestros diarios registrados desde 2015</h2>
+						<p>La compañia aseguradora Axa registra <span>213 siniestros en promedio al día</span> desde 2015 a febrero de 2018. Las barras más altas e intensas representan los días con más accidentes registrados.</p>	
+						<p>El día con más incidentes desde 2015 hasta febrero del 2018 es el <span>15 de diciembre de 2015</span>, sumando <span>402 siniestros</span>; mientras que el de menos incidentes es el <span>8 de noviembre de 2015 con ningún accidente registrado.</span></p>
+						
+            
+						<div class="row losbotones">
+       				 		<button class="btn btn-success" id="DIA">Ver por día  </button>
+				            <button class="btn btn-success " id="SEMA">Ver por semana </button>
+        				</div>
+        
+   				
+
+						<h4>Días de la semana con más registros de siniestros</h4>
+						<img src="./imgs/semanales.png" class="barrasemanales">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+			<div class="col-md-15" id="VisSeries">
+				<svg id="VisSerie"></svg>
+			</div>
+		</div>
+		<div class="row vis2">
+			
+			<div class="col-md-12">
+				<div class="row">
+					<div class ="col-xs-3"></div>
+					<div class ="col-xs-24">
+						<h2> Colonias de la CDMX con más densidad de registros de siniestros de autos</h2>
+						<p>Busca tu colonia y conoce cuántos accidentes viales hay por hectárea, basta pasar sobre el mapa tu cursor. Las colonias que reportan más siniestros son las de color rojo, en un nivel medio las color amarillo y las que menos o ninguno son las color hueso.</p>
+
+						<h4>Las 10 colonias con mayor densidad de reportes (incidentes/hectárea)</h4>
+						<img src="./imgs/10colonias.png" class="barrasemanales">
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class=" col-md-1"></div>
+			<div class="col-xs-30 col-md-15" id="VisMapas" >
+				<svg id="VisMapa"></svg>
+			</div>
+		</div>
+		<div class="vis3 row">
+			<div class="col-md-15">
+				<div class="row">
+					<div class="col-xs-3"></div>
+					<div class="col-xs-27">
+						<h2>Puntos frecuentes de choques en automóviles</h2>
+
+						<div class="row losbotones">
+       				 		<button class="btn btn-success" id="Camion">Ver camiones  </button>
+				            <button class="btn btn-success" id="Motos">Ver motocicletas </button>
+				            <button class="btn btn-success" id="Autos">Ver automóviles </button>
+        				</div>
+        				<img src="./imgs/Auto.png" class="imagenvehi">
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+
+		
+	
+	</div>
+	<footer class="row creds">
+			<div class="col-xs-2 col-md-8"></div>
+			<div class="col-xs-26 col-md-14">
+				<h5 class="Notas">Notas sobre el análisis</h5>
+				<p class="Notas">Evitamos crear conclusiones sobre las probabilidades de ocurrir un incidente en función del modelo, el color y el tipo de vehículo, pues para ello tendríamos que saber cuántos vehículos asegurados por AXA hay circulando con dichas características.</p>
+				<p class="Notas">Nos restringimos a analizar los incidentes en el tiempo, los cuales disminuyen en temporadas vacacionales y mantienen una periodicidad semanal.</p>
+				<p class="Notas">Tasamos los reportes entre la superficie para dar una cifra más aproximada de en dónde es más alta la probabilidad de ocurrir un incidente.</p>
+				<p class="Notas">Por último, mostramos los puntos de impacto más comunes en dichos reportes por tipo de vehículo.</p>
+				<p class="creds">Créditos</p>
+				<p class="nombres">Daniel Gómez Hernández/Desarrollo interactivo y Análisis</p>
+				<p class="nombres">Rocío Arias Puga/Diseño de información</p>
+				<p class="creds">Fuentes</p>
+				<p class="nombres"> hack-datos.labcd.mx/explore/?sort=modified</p>
+				<p class="nombres"></p>
+			</div>
+	</footer>
+		
+
+	
+		<script src="./js/jQuery/jquery-2.1.3.min.js"></script>
+   		<script src="./bootstrap/js/bootstrap.js"></script>
+		<script src="./js/scriptMapacdmx.js"></script>
+
+	</body>
+</html>

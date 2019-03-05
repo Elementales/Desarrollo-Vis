@@ -1,0 +1,89 @@
+@font-face{
+	font-family:'Bebas Neue';
+	src: url('Bebas Neue.ttf') format('truetype');
+}
+body{background-color: #030047; 
+	z-index: -100;
+	
+}
+ div.popover{
+ 	background-color: #ffd1d3;
+ 	border:1px ;
+ 	border-color: #ffd1d3;
+ 	color:#030047;	
+}
+div.popover > p.pops{font-size:calc(8px + .35vw);
+	margin-top:10px;
+	font-family: 'Open Sans', sans-serif;}
+.popover.top > .arrow::after{border-top-color:#ffd1d3;}
+
+div.container-fluid{background-color: #030047}
+
+rect{fill:#ff161f;
+}
+div.vis1, div.vis2, div.vis3{color:#f5f5f5;
+font-family: 'Open Sans', sans-serif;
+
+	font-size:calc(10px + .5vw);
+ 	margin-bottom:calc(10px + .5vw); 	
+ }	
+div.vis1 > p, div.vis2 > p{margin-bottom:calc(10px + .5vw);}
+line.lineasmeses{stroke:#f5f5f5;
+stroke-width:1; stroke-dasharray:5,5;
+
+ }
+
+button.btn{background: #030047;
+	font-weight: 700;
+	font-size:calc(10px + .5vw);
+  color: #7d7f2b;
+  border: 2px solid #7d7f2b; 
+  margin:.5vw;
+  border-radius: 50px;}
+button.btn:hover,button.btn:focus,button.btn:focus:hover{background: #030047;
+color: #bfbe40;
+  border: 2px solid #bfbe40; }
+.losbotones{text-align: center;}
+p > span{font-weight: 700}
+ text.meses{fill:#f5f5f5; }
+
+ h2{font-size:calc(20px + 1.5vw);
+ 	margin:calc(20px + 1.5vw) 0px calc(20px + 1.5vw) 0px;
+ 	font-style: italic;
+ 	font-weight: 300;}
+
+
+ img.barrasemanales{width: 90%}
+ h4{font-size:calc(10px + .8vw);
+ 	margin-bottom:calc(10px + .5vw);
+ 	margin-top:calc(20px + 1vw);
+ 	text-align: center; }
+
+ h1{font-size:calc(20px + 3vw);
+ 	font-family: 'Bebas Neue' ;
+ 	margin-bottom:calc(20px + .5vw);
+ 	margin-top:calc(20px + .5vw);
+ 	text-align: center; 
+ 	color:#f5f5f5;}
+ div.vis3{position:absolute;}
+ img.imagenvehi{top:calc(30px - 12vw);
+ 		position: relative;
+ 		width:80vw;
+ 		z-index: -10;}
+footer.creds{text-align: center;
+	background-color: #030047; 
+color:#f5f5f5;
+bottom: calc(-40vw - 200px) ;
+font-size:calc(10px + .5vw);
+position:relative;
+font-family: "Open Sans";
+font-weight:300;
+padding:calc(10px + .8vw) 0px calc(10px + .8vw) 0px;}
+ p.creds{font-weight: 700;}
+
+
+.Notas{color:#ff161f;
+font-family: "Open Sans";}
+p.Notas{font-size:calc(10px + .4vw);}
+h5.Notas{font-size:calc(10px + .5vw);
+font-weight:700;}

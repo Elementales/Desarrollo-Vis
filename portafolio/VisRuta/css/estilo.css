@@ -1,0 +1,143 @@
+div.container-fluid#principal{padding:0;
+
+margin:0px;}
+img#nomenclaturacolor{width:100%;background-color:#3b3530 }
+img#nomenclatura{padding: 0px;}
+div.col-xs-12.col-sm-8{padding-left: 0px;margin: 0px;margin-right: 0px;
+padding-right: 0px;}
+div{padding-left: 0px;margin: 0px;
+padding-right: 0px;}
+body{background: #faf7f2;}
+p.textovis{text-align: center;
+font-size:  calc(12px + .5vw);
+font-family:  'Ubuntu', sans-serif;
+	
+	color:#f0decf;
+	
+	padding-bottom: calc(12px + .7vw)}
+p.textovis > span{text-align: center;
+font-size:  calc(10px + .45vw);
+opacity:.7;}
+
+
+div.creditoss >div> p {
+font-family:  'Ubuntu';
+padding:0px 0px 0px 0px;
+margin:2px 0px 0px 0px;
+font-size:  calc(10px + .45vw);
+}
+
+div.creditoss{background: #c4a385;
+padding:15px;
+margin-top: 50px}
+
+
+p#credbold{
+font-weight: 600;
+font-family: 'Rokkitt', serif;
+padding:10px 0px 10px 0px;
+font-size:  calc(12px + .5vw);
+
+}
+a.ladata{font-family:  'Ubuntu';
+ color:#000;}
+h3.tit1{
+text-align: center;
+font-family: 'Rokkitt', serif;
+font-weight: 700;
+color:white;
+font-size: calc(22px + 2vw);
+
+}
+
+div.fuentesruta{
+	font-family:  'Ubuntu', sans-serif;
+	font-style: italic;	
+	padding-top: calc(12px + 2.7vw);
+	color:gray;
+	font-size:  calc(10px + .5vw);
+}
+
+span.twitter-typeahead{width:100%;}
+
+
+
+div.row.caja{    
+
+    padding-bottom: 8px;
+    box-shadow: 0px 0px 4px 2px #3b3530;
+	background: #3b3530;}
+
+
+
+div.tt-menu{ background: #faf7f2;
+color:#EB832A;
+margin-left: calc(15% + 30px);
+padding: 5px;
+font-family:  'Ubuntu', sans-serif;
+}
+input{
+	font-family:  'Ubuntu', sans-serif;
+	background-color: #f7ede6;
+	padding:5px 0px 5px 0px;
+	
+	color:#EB832A;
+	border: 0px;
+	height: 30px;
+	width: 70%;
+	margin-left: calc(30% + 0px)}
+div.input{
+	font-family:  'Ubuntu', sans-serif;
+	padding:8px 0px 8px 0px;
+	margin:0;
+	background-color: #f7ede6;
+	font-size: calc(12px + .7vw);
+	margin-bottom: 4px;
+
+
+}
+div.input.inicial:before{content: "DESDE: ";
+	position:absolute;
+	color:#756B61;
+	left:5%;
+	alignment-baseline:middle;
+font-size: calc(10px + .7vw);
+	top:calc(15px - .48vw)}
+
+div.input.final:before{content: "HACIA: ";
+	position:absolute;
+	color:#756B61;
+	font-family:  'Ubuntu', sans-serif;
+	left:5%;
+font-size: calc(10px + .7vw);
+	top:calc(15px - .48vw)}
+
+
+text.estaciones{ font-family: 'Ubuntu', sans-serif;
+	dominant-baseline:middle;
+	fill:rgb(120,120,120);
+	font-size: calc(7px + .5vw);
+	 
+
+}
+text.cifras{fill:#EB7005;
+	font-family:  'Ubuntu', sans-serif;
+	dominant-baseline:middle;
+
+	font-size: calc(7px + .5vw);
+
+
+}
+circle.ruta{
+fill:white;
+stroke:gray;
+
+}
+div#caminito{background: #faf7f2;
+margin-top:15px;
+}
+svg.caminito{
+	padding: 0px;
+	margin: 0px;
+};
+

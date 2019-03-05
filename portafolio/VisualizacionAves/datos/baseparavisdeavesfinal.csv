@@ -1,0 +1,251 @@
+Vista-general,Endemismo,TamPob,NombreCien,Claves,NOM59,NombreEspa,TendPob,Vulnerabilidad,MIA
+Gral,ne,3,Aix sponsa,149,sc,Pato Arcoíris,1,8,NO
+Gral,ne,2,Spatula discors,162,sc,Cerceta Alas Azules,2,8,SI
+Gral,ne,4,Spatula cyanoptera,163,sc,Cerceta Canela,2,10,SI
+Gral,ne,2,Spatula clypeata,164,sc,Pato Cucharón Norteño,1,7,SI
+Gral,ne,3,Mareca strepera,165,sc,Pato Friso,1,8,SI
+Gral,ne,3,Mareca americana,167,sc,Pato Chalcuán,2,9,SI
+Gral,ne,2,Anas platyrhynchos,155,sc,Pato de Collar,2,7,SI
+Gral,ne,2,Anas acuta,160,sc,Pato Golondrino,5,11,SI
+Gral,ne,2,Anas crecca,150,sc,Cerceta Alas Verdes,1,6,SI
+Gral,ne,3,Aythya valisineria,169,sc,Pato Coacoxtle,2,10,NO
+Gral,ne,3,Aythya americana,170,sc,Pato Cabeza Roja,2,10,NO
+Gral,ne,3,Aythya collaris,171,sc,Pato Pico Anillado,1,8,NO
+Gral,ne,3,Aythya affinis,174,sc,Pato Boludo Menor,5,12,SI
+Gral,ne,3,Bucephala albeola,187,sc,Pato Monja,1,8,NO
+Gral,ne,4,Lophodytes cucullatus,189,sc,Mergo Cresta Blanca,1,9,NO
+Gral,ne,3,Oxyura jamaicensis,192,sc,Pato Tepalcate,1,8,SI
+Gral,ne,3,Podilymbus podiceps,13,sc,Zambullidor Pico Grueso,2,9,SI
+Gral,ne,3,Podiceps nigricollis,17,sc,Zambullidor Orejón,1,9,SI
+Gral,ne,4,Aechmophorus occidentalis,18,sc,Achichilique Pico Amarillo,2,11,SI
+Gral,ne,5,Aechmophorus clarkii,19,sc,Achichilique Pico Naranja,3,15,NO
+Gral,Exo,1,Columba livia,529,sc,Paloma Doméstica,3,6,NO
+Gral,ne,3,Columbina inca,552,sc,Tortolita Cola Larga,1,8,SI
+Gral,ne,2,Columbina passerina,553,sc,Tortolita Pico Rojo,3,9,NO
+Gral,ne,2,Zenaida asiatica,546,sc,Paloma Alas Blancas,2,8,NO
+Gral,ne,1,Zenaida macroura,549,sc,Huilota Común,2,5,SI
+Gral,ne,2,Coccyzus americanus,632,sc,Cuclillo Pico Amarillo,5,12,NO
+Gral,ne,3,Coccyzus erythropthalmus,631,sc,Cuclillo Pico Negro,5,13,NO
+Gral,ne,3,Crotophaga sulcirostris,653,sc,Garrapatero Pijuy,1,7,NO
+Gral,ne,2,Chordeiles acutipennis,696,sc,Chotacabras Menor,2,8,NO
+Gral,ne,2,Chordeiles minor,697,sc,Chotacabras Zumbón,5,11,NO
+Gral,ne,4,Antrostomus arizonae,1987,sc,Tapacaminos Cuerporruín Mexicano,4,14,NO
+Gral,ne,4,Cypseloides niger,721,sc,Vencejo Negro,5,15,NO
+Gral,ne,3,Streptoprocne rutila,2124,sc,Vencejo Cuello Castaño,3,11,NO
+Gral,ne,3,Chaetura vauxi,729,sc,Vencejo de Vaux,3,11,NO
+Gral,ne,3,Aeronautes saxatalis,740,sc,Vencejo Pecho Blanco,4,11,NO
+Gral,ne,3,Colibri thalassinus,761,sc,Colibrí Orejas Violetas,3,11,NO
+Gral,ne,3,Eugenes fulgens,834,sc,Colibrí Magnífico,3,12,NO
+Gral,SE,3,Lampornis clemenciae,828,sc,Colibrí Garganta Azul,3,12,NO
+Gral,SE,4,Calothorax lucifer,845,sc,Colibrí Lucifer,3,14,NO
+Gral,SE,2,Selasphorus platycercus,856,sc,Zumbador Cola Ancha,2,10,NO
+Gral,ne,2,Selasphorus rufus,857,sc,Zumbador Canelo,5,13,NO
+Gral,SE,3,Selasphorus sasin,858,sc,Zumbador de Allen,4,15,NO
+Gral,SE,3,Cynanthus latirostris,785,sc,Colibrí Pico Ancho,2,10,SI
+Gral,ne,3,Amazilia beryllina,807,sc,Colibrí Berilo,2,10,NO
+Gral,SE,3,Amazilia violiceps,814,sc,Colibrí Corona Violeta,2,10,NO
+Gral,ne,3,Hylocharis leucotis,795,sc,Zafiro Orejas Blancas,3,11,NO
+Gral,EN,4,Rallus tenuirostris,2095,sc,Rascón Azteca,5,16,NO
+Gral,ne,4,Rallus limicola,333,A,Rascón Cara Gris,1,10,NO
+Gral,ne,3,Porzana carolina,338,sc,Polluela Sora,3,10,NO
+Gral,ne,3,Porphyrio martinicus,346,sc,Gallineta Morada,4,11,NO
+Gral,ne,2,Gallinula galeata,348,sc,Gallineta Frente Roja,2,8,SI
+Gral,ne,3,Fulica americana,351,sc,Gallareta Americana,4,11,SI
+Gral,ne,4,Himantopus mexicanus,380,sc,Monjita Americana,2,11,SI
+Gral,ne,4,Recurvirostra americana,381,sc,Avoceta Americana,2,12,SI
+Gral,ne,3,Pluvialis squatarola,362,sc,Chorlo Gris,4,12,NO
+Gral,ne,4,Pluvialis dominica,364,sc,Chorlo Dorado Americano,4,15,NO
+Gral,ne,4,Charadrius nivosus,368,sc,Chorlo Nevado,5,14,SI
+Gral,ne,5,Charadrius wilsonia,369,sc,Chorlo Pico Grueso,3,14,NO
+Gral,ne,4,Charadrius semipalmatus,371,sc,Chorlo Semipalmeado,2,10,NO
+Gral,ne,2,Charadrius vociferus,374,sc,Chorlo Tildío,4,9,SI
+Gral,ne,4,Bartramia longicauda,399,sc,Zarapito Ganga,2,13,NO
+Gral,ne,3,Numenius phaeopus,402,sc,Zarapito Trinador,4,13,NO
+Gral,ne,4,Numenius americanus,407,sc,Zarapito Pico Largo,4,15,SI
+Gral,ne,4,Limosa fedoa,411,sc,Picopando Canelo,4,15,NO
+Gral,ne,3,Calidris himantopus,433,sc,Playero Zancón,3,15,NO
+Gral,ne,3,Calidris alba,417,sc,Playero Blanco,5,14,NO
+Gral,ne,4,Calidris bairdii,426,sc,Playero de Baird,3,12,NO
+Gral,ne,3,Calidris minutilla,424,sc,Playero Diminuto,4,11,SI
+Gral,ne,3,Calidris melanotos,427,sc,Playero Pectoral,4,12,NO
+Gral,ne,3,Calidris mauri,419,sc,Playero Occidental,4,15,SI
+Gral,ne,4,Limnodromus scolopaceus,439,sc,Costurero Pico Largo,2,12,SI
+Gral,ne,3,Gallinago delicata,441,sc,Agachona Norteamericana,4,11,NO
+Gral,ne,3,Actitis macularius,397,sc,Playero Alzacolita,3,9,SI
+Gral,ne,4,Tringa solitaria,392,sc,Playero Solitario,4,12,SI
+Gral,ne,4,Tringa flavipes,387,sc,Patamarilla Menor,4,12,SI
+Gral,ne,4,Tringa semipalmata,393,sc,Playero Pihuiuí,4,14,NO
+Gral,ne,4,Tringa melanoleuca,386,sc,Patamarilla Mayor,3,10,SI
+Gral,ne,3,Phalaropus tricolor,445,sc,Falaropo Pico Largo,2,11,SI
+Gral,ne,3,Phalaropus lobatus,446,sc,Falaropo Cuello Rojo,4,11,NO
+Gral,ne,3,Phalaropus fulicarius,447,sc,Falaropo Pico Grueso,4,12,NO
+Gral,ne,3,Leucophaeus atricilla,453,sc,Gaviota Reidora,1,8,NO
+Gral,ne,3,Leucophaeus pipixcan,454,sc,Gaviota de Franklin,2,11,SI
+Gral,ne,3,Larus delawarensis,463,sc,Gaviota Pico Anillado,1,6,SI
+Gral,ne,3,Larus argentatus,465,sc,Gaviota Plateada,5,11,NO
+Gral,ne,4,Gelochelidon nilotica,481,sc,Charrán Pico Grueso,4,14,NO
+Gral,ne,4,Hydroprogne caspia,482,sc,Charrán del Caspio,1,10,NO
+Gral,ne,4,Chlidonias niger,500,sc,Charrán Negro,4,12,NO
+Gral,ne,4,Sterna forsteri,490,sc,Charrán de Forster,2,12,NO
+Gral,ne,4,Rynchops niger,506,sc,Rayador Americano,4,14,NO
+Gral,ne,4,Fregata magnificens,90,sc,Fragata Tijereta,4,16,NO
+Gral,ne,2,Phalacrocorax brasilianus,85,sc,Cormorán Neotropical,2,8,NO
+Gral,ne,4,Pelecanus erythrorhynchos,81,sc,Pelícano Blanco Americano,2,12,NO
+Gral,ne,3,Botaurus lentiginosus,94,A,Avetoro Norteño,4,12,NO
+Gral,ne,3,Ixobrychus exilis,96,Pr,Avetoro Menor,4,11,NO
+Gral,ne,3,Ardea herodias,100,sc,Garza Morena,1,7,SI
+Gral,ne,3,Ardea alba,103,sc,Garza Blanca,1,7,SI
+Gral,ne,3,Egretta thula,106,sc,Garza Dedos Dorados,1,8,SI
+Gral,ne,3,Egretta caerulea,108,sc,Garza Azul,5,13,SI
+Gral,ne,4,Egretta tricolor,109,sc,Garza Tricolor,2,12,SI
+Gral,Exo,2,Bubulcus ibis,111,sc,Garza Ganadera,2,6,SI
+Gral,ne,3,Butorides virescens,112,sc,Garcita Verde,4,11,NO
+Gral,ne,3,Nycticorax nycticorax,116,sc,Garza Nocturna Corona Negra,3,10,NO
+Gral,ne,3,Plegadis chihi,122,sc,Ibis Ojos Rojos,1,8,SI
+Gral,ne,2,Coragyps atratus,194,sc,Zopilote Común,1,5,NO
+Gral,ne,2,Cathartes aura,195,sc,Zopilote Aura,1,5,SI
+Gral,ne,3,Pandion haliaetus,199,sc,Águila Pescadora,1,7,NO
+Gral,ne,3,Elanus leucurus,204,sc,Milano Cola Blanca,2,8,NO
+Gral,ne,3,Circus hudsonius,213,sc,Gavilán Rastrero,4,11,SI
+Gral,ne,3,Accipiter striatus,215,Pr,Gavilán Pecho Canela,1,7,NO
+Gral,ne,3,Accipiter cooperii,217,Pr,Gavilán de Cooper,1,8,SI
+Gral,ne,3,Parabuteo unicinctus,229,Pr,Aguililla Rojinegra,4,11,SI
+Gral,ne,3,Geranoaetus albicaudatus,239,Pr,Aguililla Cola Blanca,3,10,NO
+Gral,ne,3,Buteo lineatus,234,Pr,Aguililla Pecho Rojo,1,8,NO
+Gral,ne,3,Buteo swainsoni,238,Pr,Aguililla de Swainson,2,12,NO
+Gral,ne,3,Buteo albonotatus,240,Pr,Aguililla Aura,3,10,NO
+Gral,ne,3,Buteo jamaicensis,242,sc,Aguililla Cola Roja,1,6,SI
+Gral,ne,4,Buteo regalis,243,Pr,Aguililla Real,1,11,NO
+Gral,ne,3,Tyto alba,654,sc,Lechuza de Campanario,3,9,NO
+Gral,ne,4,Megascops trichopsis,662,sc,Tecolote Rítmico,4,14,NO
+Gral,ne,2,Bubo virginianus,671,sc,Búho Cornudo,2,6,NO
+Gral,SE,4,Micrathene whitneyi,679,sc,Tecolote Enano,3,13,NO
+Gral,ne,3,Athene cunicularia,680,sc,Tecolote Llanero,4,12,SI
+Gral,ne,4,Asio otus,687,sc,Búho Cara Canela,4,12,NO
+Gral,ne,3,Asio flammeus,690,Pr,Búho Sabanero,5,12,NO
+Gral,ne,3,Megaceryle alcyon,895,sc,Martín Pescador Norteño,5,11,NO
+Gral,ne,2,Chloroceryle americana,897,sc,Martín Pescador Verde,4,10,NO
+Gral,ne,2,Melanerpes formicivorus,927,sc,Carpintero Bellotero,2,9,NO
+Gral,ne,2,Sphyrapicus varius,941,sc,Carpintero Moteado,2,7,NO
+Gral,ne,2,Dryobates scalaris,947,sc,Carpintero Mexicano,3,9,NO
+Gral,ne,2,Colaptes auratus,964,sc,Carpintero de Pechera Común,5,10,NO
+Gral,ne,3,Caracara cheriway,252,sc,Caracara Quebrantahuesos,2,8,SI
+Gral,ne,3,Falco sparverius,259,sc,Cernícalo Americano,4,11,SI
+Gral,ne,3,Falco columbarius,260,sc,Halcón Esmerejón,1,7,NO
+Gral,ne,4,Falco peregrinus,265,Pr,Halcón Peregrino,1,9,SI
+Gral,ne,3,Camptostoma imberbe,1065,sc,Mosquerito Chillón,3,10,NO
+Gral,ne,2,Myiarchus tuberculifer,1153,sc,Papamoscas Triste,3,9,NO
+Gral,ne,2,Myiarchus cinerascens,1155,sc,Papamoscas Cenizo,2,9,NO
+Gral,SE,2,Tyrannus vociferans,1181,sc,Tirano Chibiú,2,9,SI
+Gral,ne,2,Tyrannus verticalis,1183,sc,Tirano Pálido,2,9,NO
+Gral,ne,2,Tyrannus forficatus,1188,sc,Tirano Tijereta Rosado,4,11,NO
+Gral,ne,3,Contopus cooperi,1116,sc,Papamoscas Boreal,5,13,NO
+Gral,ne,3,Contopus pertinax,1117,sc,Papamoscas José María,3,12,NO
+Gral,ne,2,Contopus sordidulus,1120,sc,Papamoscas del Oeste,4,11,NO
+Gral,ne,1,Empidonax alnorum,1127,sc,Papamoscas Ailero,2,7,NO
+Gral,ne,2,Empidonax traillii,1128,sc,Papamoscas Saucero,4,10,NO
+Gral,ne,2,Empidonax minimus,1130,sc,Papamoscas Chico,4,10,NO
+Gral,ne,2,Empidonax hammondii,1131,sc,Papamoscas de Hammond,2,9,NO
+Gral,SE,3,Empidonax wrightii,1133,sc,Papamoscas Bajacolita,1,9,NO
+Gral,SE,2,Empidonax oberholseri,1132,sc,Papamoscas Matorralero,4,11,NO
+Gral,SE,3,Empidonax occidentalis,1136,sc,Papamoscas Amarillo Barranqueño,3,11,NO
+Gral,ne,3,Empidonax fulvifrons,1138,sc,Papamoscas Pecho Canela,3,12,NO
+Gral,ne,2,Sayornis nigricans,1141,sc,Papamoscas Negro,2,9,SI
+Gral,ne,3,Sayornis saya,1143,sc,Papamoscas Llanero,1,8,SI
+Gral,ne,2,Pyrocephalus rubinus,1144,sc,Papamoscas Cardenalito,1,5,SI
+Gral,ne,2,Lanius ludovicianus,1486,sc,Verdugo Americano,5,11,SI
+Gral,ne,3,Vireo bellii,1507,sc,Vireo de Bell,5,15,NO
+Gral,SE,3,Vireo cassinii,2002,sc,Vireo de Cassin,2,11,NO
+Gral,ne,3,Vireo plumbeus,2004,sc,Vireo Plomizo,2,10,NO
+Gral,ne,1,Vireo gilvus,1517,sc,Vireo Gorjeador,2,8,NO
+Gral,ne,3,Cyanocitta stelleri,1250,sc,Chara Copetona,2,9,NO
+Gral,ne,,Aphelocoma woodhouseii,2088,sc,Chara de Collar,,9,NO
+Gral,ne,3,Aphelocoma wollweberi,2087,sc,Chara Pecho Gris,3,12,NO
+Gral,ne,2,Corvus corax,1286,sc,Cuervo Común,1,6,NO
+Gral,ne,1,Eremophila alpestris,1226,sc,Alondra Cornuda,5,9,NO
+Gral,ne,2,Tachycineta bicolor,1234,sc,Golondrina Bicolor,2,8,NO
+Gral,ne,2,Tachycineta thalassina,1237,sc,Golondrina Verdemar,2,8,NO
+Gral,ne,2,Stelgidopteryx serripennis,1242,sc,Golondrina Alas Aserradas,3,9,NO
+Gral,ne,2,Riparia riparia,1244,sc,Golondrina Ribereña,5,10,NO
+Gral,ne,2,Petrochelidon pyrrhonota,1245,sc,Golondrina Risquera,2,7,NO
+Gral,ne,3,Petrochelidon fulva,1246,sc,Golondrina Pueblera,1,9,NO
+Gral,ne,1,Hirundo rustica,1247,sc,Golondrina Tijereta,4,8,SI
+Gral,ne,3,Psaltriparus minimus,1299,sc,Sastrecillo,4,11,NO
+Gral,ne,2,Sitta carolinensis,1301,sc,Bajapalos Pecho Blanco,1,6,NO
+Gral,ne,3,Salpinctes obsoletus,1317,sc,Saltapared de Rocas,5,12,NO
+Gral,ne,4,Catherpes mexicanus,1318,sc,Saltapared Barranqueño,4,11,NO
+Gral,ne,1,Troglodytes aedon,1339,sc,Saltapared Común,2,5,NO
+Gral,ne,2,Cistothorus palustris,1345,sc,Saltapared Pantanero,1,7,SI
+Gral,ne,2,Thryomanes bewickii,1336,sc,Saltapared Cola Larga,3,10,NO
+Gral,ne,2,Campylorhynchus brunneicapillus,1316,sc,Matraca del Desierto,4,10,NO
+Gral,ne,1,Polioptila caerulea,1365,sc,Perlita Azulgris,2,7,NO
+Gral,ne,1,Regulus calendula,1362,sc,Reyezuelo Matraquita,2,6,NO
+Gral,ne,2,Sialia sialis,1386,sc,Azulejo Garganta Canela,1,7,NO
+Gral,ne,2,Sialia mexicana,1387,sc,Azulejo Garganta Azul,2,9,NO
+Gral,ne,3,Catharus aurantiirostris,1402,sc,Zorzal Pico Naranja,3,12,NO
+Gral,ne,1,Catharus ustulatus,1410,sc,Zorzal de Anteojos,4,10,NO
+Gral,ne,2,Catharus guttatus,1411,sc,Zorzal Cola Canela,1,6,NO
+Gral,ne,1,Turdus migratorius,1429,sc,Mirlo Primavera,2,5,NO
+Gral,ne,2,Dumetella carolinensis,1441,sc,Maullador Gris,2,8,NO
+Gral,ne,3,Toxostoma curvirostre,1454,sc,Cuicacoche Pico Curvo,2,9,SI
+Gral,ne,2,Mimus polyglottos,1443,sc,Centzontle Norteño,4,8,NO
+Gral,Exo,1,Sturnus vulgaris,1487,sc,Estornino Pinto,4,7,SI
+Gral,ne,1,Bombycilla cedrorum,1478,sc,Chinito,2,6,NO
+Gral,CE,3,Ptiliogonys cinereus,1480,sc,Capulinero Gris,3,12,NO
+Gral,ne,3,Peucedramus taeniatus,1620,sc,Ocotero Enmascarado,3,12,NO
+Gral,Exo,1,Passer domesticus,1952,sc,Gorrión Doméstico,5,8,NO
+Gral,ne,2,Anthus rubescens,1474,sc,Bisbita Norteamericana,4,9,SI
+Gral,ne,3,Anthus spragueii,1475,sc,Bisbita Llanera,5,14,SI
+Gral,ne,2,Haemorhous mexicanus,1900,sc,Pinzón Mexicano,2,6,SI
+Gral,ne,2,Spinus psaltria,1911,sc,Jilguerito Dominico,2,8,NO
+Gral,ne,3,Pipilo chlorurus,1746,sc,Rascador Cola Verde,2,10,NO
+Gral,ne,3,Aimophila ruficeps,1788,sc,Zacatonero Corona Canela,4,11,NO
+Gral,ne,2,Melozone fusca,1750,sc,Rascador Viejita,3,9,SI
+Gral,ne,1,Spizella passerina,1794,sc,Gorrión Cejas Blancas,3,8,NO
+Gral,SE,1,Spizella pallida,1795,sc,Gorrión Pálido,4,10,SI
+Gral,ne,4,Spizella atrogularis,1799,sc,Gorrión Barba Negra,5,15,NO
+Gral,ne,2,Pooecetes gramineus,1800,sc,Gorrión Cola Blanca,4,11,NO
+Gral,ne,2,Chondestes grammacus,1801,sc,Gorrión Arlequín,4,10,NO
+Gral,ne,2,Calamospiza melanocorys,1805,sc,Gorrión Alas Blancas,5,12,NO
+Gral,ne,1,Passerculus sandwichensis,1806,sc,Gorrión Sabanero,4,8,SI
+Gral,ne,2,Ammodramus savannarum,1808,sc,Gorrión Chapulín,5,12,NO
+Gral,ne,1,Melospiza melodia,1815,sc,Gorrión Cantor,4,8,SI
+Gral,ne,1,Melospiza lincolnii,1816,sc,Gorrión de Lincoln,2,7,NO
+Gral,ne,2,Melospiza georgiana,1817,sc,Gorrión Pantanero,1,6,NO
+Gral,CE,2,Junco phaeonotus,1825,sc,Junco Ojos de Lumbre,2,9,NO
+Gral,ne,2,Xanthocephalus xanthocephalus,1847,sc,Tordo Cabeza Amarilla,2,9,NO
+Gral,ne,2,Sturnella magna,1845,sc,Pradero Tortillaconchile,5,11,SI
+Gral,ne,1,Sturnella neglecta,1846,sc,Pradero del Oeste,4,10,NO
+Gral,ne,3,Icterus wagleri,1867,sc,Calandria de Wagler,3,12,NO
+Gral,ne,2,Icterus spurius,1869,sc,Calandria Castaña,3,9,NO
+Gral,SE,2,Icterus bullockii,2008,sc,Calandria Cejas Naranjas,4,11,NO
+Gral,EN,4,Icterus abeillei,2009,sc,Calandria Flancos Negros,3,14,NO
+Gral,SE,3,Icterus parisorum,1882,sc,Calandria Tunera,2,11,NO
+Gral,ne,1,Agelaius phoeniceus,1839,sc,Tordo Sargento,4,8,NO
+Gral,ne,2,Molothrus aeneus,1860,sc,Tordo Ojos Rojos,1,6,SI
+Gral,ne,1,Molothrus ater,1861,sc,Tordo Cabeza Café,4,7,SI
+Gral,ne,2,Quiscalus mexicanus,1856,sc,Zanate Mayor,1,5,SI
+Gral,ne,2,Parkesia noveboracensis,1579,sc,Chipe Charquero,4,10,NO
+Gral,ne,2,Mniotilta varia,1573,sc,Chipe Trepador,4,10,NO
+Gral,ne,1,Oreothlypis celata,1536,sc,Chipe Oliváceo,4,9,NO
+Gral,ne,2,Oreothlypis ruficapilla,1537,sc,Chipe Cabeza Gris,2,9,NO
+Gral,SE,3,Oreothlypis virginiae,1538,sc,Chipe de Virginia,4,14,NO
+Gral,ne,2,Geothlypis tolmiei,1584,A,Chipe Lores Negros,4,11,NO
+Gral,ne,1,Geothlypis trichas,1585,sc,Mascarita Común,4,9,NO
+Gral,ne,2,Setophaga ruticilla,1574,sc,Pavito Migratorio,4,10,NO
+Gral,ne,1,Setophaga petechia,1545,sc,Chipe Amarillo,2,6,NO
+Gral,ne,1,Setophaga coronata,1550,sc,Chipe Rabadilla Amarilla,2,6,NO
+Gral,SE,3,Setophaga nigrescens,1551,sc,Chipe Negrogris,2,11,NO
+Gral,ne,2,Setophaga townsendi,1552,sc,Chipe de Townsend,2,10,NO
+Gral,ne,3,Setophaga occidentalis,1553,sc,Chipe Cabeza Amarilla,2,12,NO
+Gral,CE,3,Basileuterus rufifrons,1609,sc,Chipe Gorra Canela,3,12,NO
+Gral,ne,1,Cardellina pusilla,1599,sc,Chipe Corona Negra,5,10,NO
+Gral,ne,3,Myioborus miniatus,1605,sc,Pavito Alas Negras,3,11,NO
+Gral,ne,2,Piranga flava,1677,sc,Piranga Encinera,2,8,NO
+Gral,ne,2,Piranga rubra,1678,sc,Piranga Roja,2,9,NO
+Gral,ne,2,Piranga ludoviciana,1680,sc,Piranga Capucha Roja,1,8,NO
+Gral,SE,2,Pheucticus melanocephalus,1716,sc,Picogordo Tigrillo,2,9,NO
+Gral,ne,2,Passerina caerulea,1719,sc,Picogordo Azul,2,8,NO
+Gral,ne,1,Passerina cyanea,1722,sc,Colorín Azul,4,9,NO
+Gral,ne,3,Passerina versicolor,1723,sc,Colorín Morado,4,13,NO
+Gral,ne,4,Diglossa baritula,1775,sc,Picochueco Vientre Canela,2,12,NO

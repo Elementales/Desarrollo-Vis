@@ -1,0 +1,101 @@
+"population","indicator","human development index","civil liberties score ","government effectiveness","world happiness report score"
+"Sub-Saharan Africa","South Sudan",0.388,7.,-2.48,2.816622496
+"Middle East and North Africa","Yemen",0.452,6.,-1.92,3.253560066
+"Sub-Saharan Africa","Tanzania",0.538,4.,-0.63,3.347121239
+"Sub-Saharan Africa","Malawi",0.477,3.,-0.67,3.416862965
+"Sub-Saharan Africa","Zimbabwe",0.535,5.,-1.19,3.63830018
+"Latin America and Caribbean","Haiti",0.498,5.,-2.06,3.823865652
+"Middle East and North Africa","Egypt",0.696,6.,-0.62,3.929344177
+"Sub-Saharan Africa","Zambia",0.588,4.,-0.62,3.932777405
+"Sub-Saharan Africa","Uganda",0.516,4.,-0.58,4.000516891
+"South Asia","India",0.64,3.,0.09,4.046111107
+"Sub-Saharan Africa","Madagascar",0.519,4.,-1.14,4.078620434
+"Sub-Saharan Africa","Sierra Leone",0.419,3.,-1.21,4.089562416
+"Middle East and North Africa","Tunisia",0.735,3.,-0.07,4.124342918
+"Southeast Asia","Myanmar",0.578,5.,-1.05,4.154341698
+"Sub-Saharan Africa","Ethiopia",0.463,6.,-0.7,4.180315495
+"Sub-Saharan Africa","Mozambique",0.437,4.,-0.89,4.279863358
+"South Asia","Bangladesh",0.608,4.,-0.74,4.309771061
+"Sub-Saharan Africa","Congo (Dem. Rep.)",0.457,6.,-1.63,4.311033249
+"Commonwealth of Independent States","Ukraine",0.751,3.,-0.46,4.311067104
+"South Asia","Sri Lanka",0.77,4.,-0.15,4.330945492
+"Sub-Saharan Africa","Togo",0.503,4.,-1.13,4.360805035
+"Middle East and North Africa","Iraq",0.685,6.,-1.27,4.462399006
+"Sub-Saharan Africa","Kenya",0.59,4.,-0.31,4.475654125
+"Sub-Saharan Africa","South Africa",0.699,2.,0.28,4.513655186
+"Sub-Saharan Africa","Chad",0.404,6.,-1.46,4.558937073
+"Southeast Asia","Cambodia",0.582,5.,-0.66,4.585842133
+"Sub-Saharan Africa","Niger",0.354,4.,-0.67,4.615673542
+"Southeast Asia","Laos",0.601,6.,-0.36,4.623140812
+"Sub-Saharan Africa","Burkina Faso",0.423,3.,-0.59,4.646891117
+"Sub-Saharan Africa","Senegal",0.505,2.,-0.32,4.683024883
+"Middle East and North Africa","Iran",0.798,6.,-0.19,4.716783047
+"South Asia","Nepal",0.574,4.,-0.88,4.736692429
+"Sub-Saharan Africa","Mali",0.427,4.,-0.94,4.741850376
+"Middle East and North Africa","Jordan",0.735,5.,0.12,4.808082581
+"Sub-Saharan Africa","Benin",0.515,2.,-0.64,4.853180885
+"Sub-Saharan Africa","Guinea",0.459,5.,-1.04,4.873722553
+"Sub-Saharan Africa","Cote d'Ivoire",0.794,4.,-0.74,5.037734985
+"Sub-Saharan Africa","Cameroon",0.556,6.,-0.82,5.07405138
+"Southeast Asia","Indonesia",0.694,4.,0.04,5.098401546
+"East Asia","China",0.752,6.,0.42,5.099061489
+"Central and Eastern Europe","Serbia",0.787,2.,0.19,5.122031212
+"Western Europe","Greece",0.87,2.,0.31,5.14824152
+"Commonwealth of Independent States","Azerbaijan",0.757,6.,-0.16,5.152279377
+"Southeast Asia","Vietnam",0.694,5.,0.,5.175278664
+"Commonwealth of Independent States","Turkmenistan",0.706,7.,-1.21,5.229148865
+"Middle East and North Africa","Algeria",0.754,5.,-0.6,5.248912334
+"Middle East and North Africa","Morocco",0.667,5.,-0.16,5.312482834
+"Sub-Saharan Africa","Nigeria",0.532,5.,-0.96,5.321928024
+"Sub-Saharan Africa","Ghana",0.592,2.,-0.11,5.481310844
+"Commonwealth of Independent States","Belarus",0.808,6.,-0.35,5.552915096
+"Commonwealth of Independent States","Russia",0.816,6.,-0.08,5.578742981
+"Southeast Asia","Philippines",0.699,3.,-0.06,5.594270229
+"Latin America and Caribbean","Dominican Republic",0.736,3.,-0.35,5.605202675
+"Middle East and North Africa","Turkey",0.791,6.,0.07,5.607262135
+"Commonwealth of Independent States","Kyrgyzstan",0.672,5.,-0.71,5.629536629
+"Middle East and North Africa","Libya",0.706,6.,-1.77,5.646852493
+"Latin America and Caribbean","Bolivia",0.693,3.,-0.39,5.65055275
+"Latin America and Caribbean","Peru",0.75,3.,-0.13,5.710936546
+"Western Europe","Portugal",0.847,1.,1.33,5.711499214
+"Commonwealth of Independent States","Tajikistan",0.65,6.,-1.12,5.829234123
+"South Asia","Pakistan",0.562,5.,-0.58,5.830870628
+"Latin America and Caribbean","Ecuador",0.752,3.,-0.32,5.839518547
+"East Asia","Korea (Rep.)",0.903,2.,1.08,5.873887062
+"Commonwealth of Independent States","Kazakhstan",0.8,5.,0.01,5.882351398
+"East Asia","Japan",0.909,1.,1.62,5.910676479
+"Southeast Asia","Thailand",0.755,5.,0.38,5.938895226
+"Latin America and Caribbean","Honduras",0.617,4.,-0.51,6.019985676
+"Latin America and Caribbean","Argentina",0.825,2.,0.16,6.039330006
+"Central and Eastern Europe","Hungary",0.838,2.,0.51,6.065038681
+"Central and Eastern Europe","Romania",0.811,2.,-0.17,6.089904785
+"Latin America and Caribbean","Colombia",0.843,3.,-0.07,6.157341957
+"Western Europe","Italy",0.88,1.,0.5,6.198870182
+"Central and Eastern Europe","Poland",0.865,2.,0.63,6.201268196
+"Western Europe","Spain",0.891,1.,1.03,6.230173111
+"Middle East and North Africa","Saudi Arabia",0.853,7.,0.25,6.294282436
+"Latin America and Caribbean","Chile",0.843,1.,0.85,6.320119381
+"Latin America and Caribbean","Guatemala",0.65,4.,-0.64,6.325118542
+"Latin America and Caribbean","Brazil",0.759,2.,-0.29,6.332929134
+"Latin America and Caribbean","El Salvador",0.674,3.,-0.37,6.339318275
+"Central and Eastern Europe","Slovakia",0.855,1.,0.81,6.365509033
+"Southeast Asia","Singapore",0.932,4.,2.21,6.378437996
+"Latin America and Caribbean","Mexico",0.774,3.,-0.03,6.410299301
+"Commonwealth of Independent States","Uzbekistan",0.71,7.,-0.56,6.421447754
+"Latin America and Caribbean","Nicaragua",0.658,4.,-0.64,6.476356506
+"Western Europe","France",0.901,2.,1.35,6.635222435
+"Central and Eastern Europe","Czech Republic",0.888,1.,1.02,6.789567947
+"Western Europe","Belgium",0.916,1.,1.18,6.928347588
+"North America and ANZ","United States",0.924,1.,1.55,6.9917593
+"Middle East and North Africa","United Arab Emirates",0.863,6.,1.4,7.039419651
+"Western Europe","Germany",0.936,1.,1.72,7.074324608
+"Western Europe","United Kingdom",0.922,1.,1.41,7.103273392
+"North America and ANZ","Australia",0.939,1.,1.54,7.25703764
+"Western Europe","Sweden",0.933,1.,1.84,7.286804676
+"Western Europe","Austria",0.908,1.,1.46,7.293727875
+"Middle East and North Africa","Israel",0.903,3.,1.39,7.331036091
+"Western Europe","Netherlands",0.931,1.,1.85,7.458965302
+"Western Europe","Switzerland",0.944,1.,2.06,7.473593235
+"Western Europe","Norway",0.953,1.,1.98,7.578744888
+"Western Europe","Denmark",0.929,1.,1.8,7.593702316
+"Western Europe","Finland",0.92,1.,1.94,7.788251877

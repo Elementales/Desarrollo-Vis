@@ -1,0 +1,279 @@
+body{background:rgb(246,246,246);
+position:relative;}
+div.boton{
+	text-align: center;
+	z-index: 15;
+	position: absolute;
+  	left: calc(50% - 100px);
+  	top:90vh;
+  	width: 100px;
+	}
+
+div.lafelicidad{
+	visibility: hidden;
+	z-index: 5;
+	left: 0%;
+	width: 100%;
+	position:absolute;
+	top: 0%}
+
+div#nomenclatura{
+	z-index: 10;
+	position:absolute;
+	top: 0%;
+	left: 0px;
+}
+strong.datavisualization{cursor:pointer;}
+strong.datavisualization:hover{text-decoration: underline}
+p.results{font-size: calc(10px + 1.05vw);
+	font-family: 'Annie Use Your Telescope';
+	margin-top: calc(.8vw + 10px);
+	line-height: calc(12px + 1.05vw);;
+	color:black;}	
+
+h1.goodgov{
+	margin-top: 6vh;
+	margin-bottom: 6vh;
+	color:rgb(112,100,104);
+	font-family: 'Annie Use Your Telescope';
+	font-size: 7vw;
+	line-height: 8vw;
+	text-align: center;}
+
+div.descrip{font-family: 'Lato';
+	color:rgb(112,100,104);
+	font-size: calc(8px + .6vw);
+	text-align: center;}
+
+div.descrip > p{
+	margin-bottom: calc(.9vw + 9px);
+	line-height:  calc(9px + .9vw);}
+
+div.descrip > p.li{
+	margin: 0px;
+	padding:0px;
+
+}
+
+button#moveDown{
+  font-size: calc(14px + 1vw);
+	font-family: 'Annie Use Your Telescope';
+	color:black;
+	text-decoration: underline;
+	background: rgb(246,246,246);
+  border:0px;
+  margin:.5vw;
+  border-radius: 25px;}
+button#moveDown:hover,button#moveDown:focus,button#moveDown:focus:hover{
+	background: rgb(246,246,246)}
+
+div.dropdown{width: 100%;}
+button#regions, button#countries {
+width: 100%;
+text-align: left;
+font-size: calc(10px + .8vw);
+	font-family: 'Annie Use Your Telescope';
+	color:rgb(112,100,104);
+	background:rgb(246,246,246);
+  border:0px;
+  margin: .5vw 0px 0px 0px ;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+ul.dropdown-menu{
+	font-family: 'Annie Use Your Telescope';
+	background: rgb(242,233,236);
+} 
+
+ul.dropdown-menu.countries{
+	font-family: 'Annie Use Your Telescope';
+	height: 60vh;
+	overflow-y: scroll;
+	color:rgb(63, 56, 61);
+	
+} 
+
+li.reg, li.countr{padding-left: 10px;}
+li.reg:hover, li.countr:hover{ background:rgb(254,219,201);
+	cursor: pointer;}
+
+div.row.paises{margin-top: 7vh;}
+div.noming{margin-top: 7vh;}
+
+ul{list-style-type: none;
+padding:0px;}
+
+li.nomenc{margin-top: 3px;
+	padding-left:calc(6px + .6vw);
+	font-family: 'Annie Use Your Telescope';
+	font-size:calc(8px + .4vw);
+	color:white;}
+li.paiseleccionado{
+	padding-left:calc(6px + .6vw);
+	margin-top: 3px;
+	font-family: 'Annie Use Your Telescope';
+	font-size:calc(8px + .6vw);}
+
+button#regions::after, button#countries::after{
+	content: "";
+
+	background-image: url("../imgs/dropdownmenuicon.svg");
+	background-size: 100% 100%;
+  	display: inline-block;
+  	height: calc(10px + 1vw);
+  	right: 0px;
+  	width:calc(10px + 1vw);
+  	position:absolute;
+  	top:30%;}
+
+
+div.imgcred{
+	display: inline;
+	z-index: 31;
+	position: fixed;
+	width: 12vw;
+	top: 90vh;
+	left: 91vw;
+	cursor: pointer;}
+img.imgcreds{
+	width: calc(15px + 1.5vw);
+	height:  calc(15px + 1.5vw);}
+p.imgcredits{
+	margin-left: 10px;
+	font-size: calc(14px + 1vw);
+	font-family: 'Annie Use Your Telescope';
+	color:rgb(112,100,104);
+	display: inline;}
+.imgcredits{
+	-moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;}
+.imgcredits.down{
+	opacity:0;}	
+.imgcreds {
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;}
+.imgcreds.down {
+    -moz-transform:translate(-8vw,0px) rotate(-90deg);
+    -webkit-transform: translate(-8vw,0px) rotate(-90deg);
+    transform: translate(-8vw,0px) rotate(-90deg);}
+
+div.creditos{
+	z-index: 30;
+	position: fixed;
+	width: 20vw;
+	height: 100vh;
+	left: 100vw;
+	top: 0px;
+	background: rgb(254,219,201);}
+
+div.creditos > a{
+	position:relative;
+	top: 65%;}
+div.creditos > a > img{
+	position:relative;
+	left: 13%;
+	width: 74%;}
+.creditos {
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;}
+.creditos.down {
+    -moz-transform:translate(-20vw,0px) ;
+    -webkit-transform: translate(-20vw,0px) ;
+    transform: translate(-20vw,0px);}
+
+
+img.nompng{width: 100%}
+
+div.imginsaight{
+
+	visibility: hidden;
+	display: inline;
+	z-index: 22;
+	position: fixed;
+	width: 18vw;
+	top: 4vh;
+	left: 3.5vw;
+	cursor: pointer;}
+img.imginsaights{
+	width: calc(15px + 1.5vw);
+	height:  calc(15px + 1.5vw);}
+p.imginsaights{
+	line-height: calc(6px + .6vw);
+	margin: 1px;
+	font-size: calc(8px + .8vw);
+	font-family: 'Annie Use Your Telescope';
+	color:rgb(112,100,104);
+	display: inline;}
+p.imginsaights{
+	-moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;}
+p.imginsaights.down{
+	opacity:0;}	
+.imginsaights {
+    -moz-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;}
+.imginsaights.down {
+    -moz-transform:translate(3vw,0px) rotate(90deg);
+    -webkit-transform: translate(3vw,0px) rotate(90deg);
+    transform: translate(3vw,0px) rotate(90deg);}
+
+  div.insightsall{
+  	z-index: 21;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	height: 100vh;
+   	visibility: hidden;
+   	background: rgb(246,246,246);;
+   }
+
+div#insight3,div#insight2,div#insight1{
+
+}
+h2{text-align: center;
+	margin-top:calc(20px + 2vw);
+	font-size: calc(15px + 1.5vw);
+	font-family: 'Annie Use Your Telescope';
+	color:rgb(112,100,104);
+}
+
+h4{text-align: center;
+	margin-bottom:calc(20px + 2vw); 
+	font-size: calc(13px + 1.3vw);
+	font-family: 'Annie Use Your Telescope';
+	color:rgb(112,100,104);
+}
+
+p.insght{font-size: calc(10px + .2vw);
+font-family: 'Lato';}
+div.listadoreg{margin-top: calc(6px + .3vw);}
+
+h2.titvisgen{
+	margin:0px;
+	margin-top: calc(15px + 1.5vw);
+	margin-bottom:  calc(5px + .3vw);
+}
+img.botondataviz{margin-top: 4vh;
+cursor: pointer;}
+
+
+span.RepublicofSoutSudan{background: rgb(45, 40, 38);
+color:white;}
+span.Finland{background: rgb(101, 131, 255);
+color:white;}
+span.Haiti{background: rgb(61, 120, 63);
+color:white;}
+span.Honduras{background: rgb(136, 179, 138);
+color:white;}
+span.Guatemala{background: rgb(26, 239, 34);
+color:white;}
+span.Nicaragua{background: rgb(160, 215, 161);
+color:white;}
+span.SoutAfrica{background: rgb(193, 157, 125);
+color:white;}
