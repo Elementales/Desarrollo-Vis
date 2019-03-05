@@ -1,4 +1,4 @@
-//This script contains a Kuramoto model simulation  make a social data visualization
+//This script contains a Kuramoto model simulation like a social data visualization
 //It is someting like an experiment, were We tried to make a metaphor between the 
 //opinion sincronization in social networks and sincronization in dinamical systems
 //The chosen theme was abortion given the relevance it took in 2018
